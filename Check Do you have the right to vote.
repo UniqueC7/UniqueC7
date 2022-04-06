@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 18;
+	cout<<"Enter your age ";
+	cin>>a;
+	if(a>18) {
+	   cout<<"You have right to vote \n";
+	}
+	else if (a<18){
+		cout<<"It seems you have written something else";
+	}
+	else  {
+		cout<<"It seems you have written something else";
+	}
+	return 0;
+}
